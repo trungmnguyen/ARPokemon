@@ -72,31 +72,23 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             node.addChildNode(planeNode)
             
-            if imageAnchor.referenceImage.name == "oddish-card" {
-                if let pokeScene = SCNScene(named: "art.scnassets/oddish.scn"){
+            if let pokemonCard = imageAnchor.referenceImage.name  {
+                if let pokeScene = SCNScene(named: "art.scnassets/\(pokemonCard).scn"){
                     
                     if let pokeNode = pokeScene.rootNode.childNodes.first {
                         
-                        pokeNode.eulerAngles.x = .pi/2
-                        planeNode.addChildNode(pokeNode)
-                    }
-                }
-            }
-            
-            if imageAnchor.referenceImage.name == "eevee-card" {
-                if let pokeScene = SCNScene(named: "art.scnassets/oddish.scn"){
-                    
-                    if let pokeNode = pokeScene.rootNode.childNodes.first {
-                        
+//                        pokeNode.scale.x = 0.005
+//                        pokeNode.scale.y = 0.005
+//                        pokeNode.scale.z = 0.005
                         pokeNode.eulerAngles.x = .pi/2
                         planeNode.addChildNode(pokeNode)
                     }
                 }
             }
         }
-        
         return node
         
     }
+    
     
 }
