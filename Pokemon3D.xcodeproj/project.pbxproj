@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				10245C0521EDC0D9002D9538 /* AppDelegate.swift */,
-				10245C0721EDC0D9002D9538 /* art.scnassets */,
 				10245C0921EDC0D9002D9538 /* ViewController.swift */,
 				10245C0B21EDC0D9002D9538 /* Main.storyboard */,
+				10245C0721EDC0D9002D9538 /* art.scnassets */,
 				10245C0E21EDC0DA002D9538 /* Assets.xcassets */,
 				10245C1021EDC0DA002D9538 /* LaunchScreen.storyboard */,
 				10245C1321EDC0DA002D9538 /* Info.plist */,
@@ -293,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TN.AR.Pokemon3D;
+				PRODUCT_BUNDLE_IDENTIFIER = TN.AR.ARPokemon3D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TN.AR.Pokemon3D;
+				PRODUCT_BUNDLE_IDENTIFIER = TN.AR.ARPokemon3D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
